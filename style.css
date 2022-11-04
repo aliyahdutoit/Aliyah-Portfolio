@@ -31,7 +31,17 @@ body {
 
 /*About Me Section*/
 
+#aboutmeheadliner {
+  font-size: 30px;
+}
 
+#aboutme, #workexp {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .67);
+}
+
+#workexp {
+  width: 120px;
+}
 /*hobbies and interests*/
 
 #hobbyinterest {
