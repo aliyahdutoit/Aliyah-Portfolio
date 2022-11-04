@@ -13,24 +13,29 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
+    <!--Stylesheet CSS-->
+    <link rel="stylesheet" href="style.css">
+
     <title>Aliyah du Toit</title>
   </head>
   <body>
-    <ul class="nav justify-content-end" style="padding: 10px;">
+    <!--Nav Bar-->
+    <ul class="nav justify-content-end" id="navbar-purple">
       <li class="nav-item">
         <a class="nav-link" href="#">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Skills & Projects</a>
+        <a class="nav-link" href="#skillsandprojects">Skills & Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#testimonials">Testimonials</a>
       </li>
     <li class="nav-item">
-      <a class="nav-link">Contact</a>
+      <a class="nav-link" href="#contact">Contact</a>
     </li>
   </ul>
 
+  <!--Landing Page Carousel-->
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -39,20 +44,20 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src=".//assets/Landing1.jpg" class="d-block w-100" style="height: 691px;" alt="...">
-        <div class="carousel-caption d-none d-md-block" style="color: black; padding-bottom: 300px; padding-left: 100px; font-family: 'Times New Roman', Times, serif;">
+        <img src=".//assets/Landing1.jpg" class="d-block w-100" id="carousel" alt="...">
+        <div class="carousel-caption d-none d-md-block" id="carousel-caption">
           <h1>Aliyah du Toit</h1>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./assets/landing2.jpg" class="d-block w-100" style="height: 691px;" alt="...">
-        <div class="carousel-caption d-none d-md-block" style="color: black; padding-bottom: 300px; padding-left: 100px; font-family: 'Times New Roman', Times, serif;">
+        <img src="./assets/landing2.jpg" class="d-block w-100" id="carousel" alt="...">
+        <div class="carousel-caption d-none d-md-block" id="carousel-caption">
           <h1>Aliyah du Toit</h1>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./assets/landing3.jpg" class="d-block w-100" style="height: 691px;" alt="...">
-        <div class="carousel-caption d-none d-md-block" style="color: black; padding-bottom: 300px; padding-left: 100px; font-family: 'Times New Roman', Times, serif;">
+        <img src="./assets/landing3.jpg" class="d-block w-100" id="carousel" alt="...">
+        <div class="carousel-caption d-none d-md-block" id="carousel-caption">
           <h1>Aliyah du Toit</h1>
         </div>
       </div>
@@ -67,10 +72,161 @@
     </button>
   </div>
   
-  <h1 id="testimonials" style="font-family: 'Times New Roman', Times, serif; padding-left: 400px; font-size: 100px; color: #b09cd1;">TESTIMONIALS</h1>
-  <div class="card-container" style="display:flex; flex-wrap: wrap; padding: 90px; border-spacing: 50px; justify-content: space-between; align-content: center; column-gap: 100px; column-gap: 50px;">
-  <div class="card mb-3"  style="height: 600px; width: 300px;">
-    <img src="./assets/Tcard1.jpg" class="card-img-top" style="height: 300px;" alt="...">
+  <!--Skills and Projects-->
+<h1 id="skillsandprojects">SKILLS AND PROJECTS</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-8">
+    <!--Projects section-->
+  
+    <div class="card-container">  
+      <div class="card-vertical">
+        <div class="card-back">
+          <article class="card-back-content">
+          <h1 class="card-h1">Siamese Society</h1>
+          <p>Siamese Cat adoption website.</p>
+            <p>
+              <a href="https://github.com/aliyahdutoit/Siamese-Society.git" class="link-colors">Github</a>
+              <br><a href="">Netlify</a>
+            </p>
+          <article>
+        </div>
+        <div class="card-front">
+          <article class="card-front-content">
+
+            <img src="./assets/siamese society pfp.jpg" > 
+           <article>
+        </div>
+      </div>
+    </div>
+    <div class="card-container">
+        <div class="card-vertical">
+            <div class="card-back"> 
+              <article class="card-back-content">
+                <h1 class="card-h1">Sneaker Site</h1>
+                <p>Website selling various choices of sneakers.</p>         
+                 <p><a href="https://github.com/aliyahdutoit/sneakers.git">Github</a>
+                  <br><a href="">Netlify</a>
+                 </p>
+              <article>
+            </div>
+            <div class="card-front card-front-hr">
+              <article class="card-front-content">
+          
+            <img src="./assets/__ _.jpg" > 
+           <article>
+            </div>
+        </div>
+    </div>
+     <div class="card-container">
+        <div class="card-vertical">
+            <div class="card-back"> 
+              <article class="card-back-content">
+                <h1 class="card-h1">Netflix Promo </h1>
+                <p>Promo website for Netflix</p>
+                <p>Github:
+                  <br>Netlify:
+                </p>
+              <article>
+            </div>
+            <div class="card-front card-front-hr">
+               <article class="card-front-content">
+            
+            <img src="./assets/dd copy.png" > 
+           <article>
+            </div>
+        </div>
+    </div>
+    <div class="card-container">  
+      <div class="card-vertical">
+        <div class="card-back">
+          <article class="card-back-content">
+                <h1 class="card-h1">Cat-Themed Portfolio</h1>
+                <p>cat-themed portfolio</p>
+            <p>
+              <a href="https://github.com/aliyahdutoit/AliyahPortfolio.git">Github</a>
+              <br><a href="">Netlify</a>
+            </p>
+           <article>
+        </div>
+        <div class="card-front">
+         <article class="card-front-content">
+            
+            <img src="./assets/cat-portfolio.jpg" > 
+           <article>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <div class="col-4">
+      <div class="skills">
+          <h3 class="skills">Skills</h3>
+          <div id="carouselExampleCaptions" class="carousel slide" id="carousel-skill" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/html 5.png" class="d-block w-100" id="carousel-skill" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>HTML 5</h5>
+                  <p>9/10</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/css 3.png" class="d-block w-100" id="carousel-skill" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>CSS 3</h5>
+                  <p>8/10</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/Bootstrap_logo.svg.png" class="d-block w-100" id="carousel-skill" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Bootstrap</h5>
+                  <p>8/10</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+                </div>
+      </div></div>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+       
+       <!--Testimonial section-->
+
+  <h1 id="testimonials">TESTIMONIALS</h1>
+  <div class="card-container">
+  <div class="card mb-3" id="card-look">
+    <img src="./assets/Tcard1.jpg" class="card-img-top" id="card-image" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Savannah Samuels</h5>
+      <p class="card-text">Aliyah is a soft and gentle individual who is always keen on learning new things and is always hard-working</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+  <div class="card mb-3" id="card-look">
+    <img src="./assets/Tcard2.png" class="card-img-top" id="card-image" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -78,8 +234,17 @@
     </div>
   </div>
 
-  <div class="card mb-3"  style="height: 600px; width: 300px;">
-    <img src="./assets/Tcard2.png" class="card-img-top" style="height: 300px;" alt="...">
+  <div class="card mb-3" id="card-look">
+    <img src="./assets//Tcard3.jpg" class="card-img-top" id="card-image" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+  <div class="card mb-3" id="card-look">
+    <img src="./assets/Tcard4.jpg" class="card-img-top" id="card-image" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -87,28 +252,10 @@
     </div>
   </div>
 
-  <div class="card mb-3"  style="height: 600px; width: 300px;">
-    <img src="./assets//Tcard3.jpg" class="card-img-top" style="height: 300px;" alt="...">
+  <div class="card mb-3" id="card-look">
+    <img src="./assets/Tcard5.jpg" class="card-img-top" id="card-image" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-
-  <div class="card mb-3"  style="height: 400px; width: 300px;">
-    <img src="./assets/Tcard4.jpg" class="card-img-top" style="height: 300px;" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-
-  <div class="card mb-3"  style="height: 400px; width: 300px;">
-    <img src="./assets/Tcard5.jpg" class="card-img-top" style="height: 300px;" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
+      <h5 class="card-title">Kauthar  Brandt</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
@@ -116,8 +263,8 @@
 
 
 
-  <div class="card mb-3"  style="height: 400px; width: 300px;">
-    <img src="./assets/Tcard6.jpg" class="card-img-top" style="height: 300px;" alt="...">
+  <div class="card mb-3" id="card-look">
+    <img src="./assets/Tcard6.jpg" class="card-img-top" id="card-image" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -125,6 +272,53 @@
     </div>
   </div>
 </div>
+
+<!--Contact Section-->
+<div class="container">
+  <div class="row">
+    <div class="col">
+      1 of 2
+    </div>
+    <div class="col">
+      2 of 2
+    </div>
+  </div>
+</div>
+<h3>if you liked what you saw, please do not hesitate to
+  <br>CONTACT ME!
+</h3>
+<p></p>
+<div class="container-form">
+
+  <p>
+    <br> +27 61 440 2813
+    <br>aliyah.dutoit!@gmail.com
+    <br> Cape Town, South Africa
+    
+  </p>
+  <form action="action_page.php">
+
+    <label for="fname">Your Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="cname">Company Name</label>
+    <input type="text" id="cname" name="companyname" placeholder="Your company name..">
+
+    <label for="email">Your Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+
+
+
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -136,4 +330,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
   </body>
-</html>
+
+  <!--Footer section-->
+  <footer>
+
+  </footer>
+</html> 
