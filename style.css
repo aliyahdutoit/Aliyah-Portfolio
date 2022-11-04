@@ -4,12 +4,25 @@
 body {
   background-color: #e1d3f5;
 }
+
+/*About Me Section*/
+
+
+/*skills and projects section*/
+#skillsandprojects {
+  font-family: 'Times New Roman', Times, serif; 
+  padding-left: 300px; 
+  font-size: 100px; 
+  color: #b09cd1;
+}
+
+/*Projects section*/
 .card-body {
     background:transparent; 
     position:relative;
     height:100%;
     width:100%;
-    max-width:600px;
+    max-width:500px;
     overflow:auto;
     margin:0 auto;
     margin-left: 0px;
@@ -115,7 +128,7 @@ img{
   padding-left: 500px;
 }
 
-.container-sp {
+.container {
   display: flex;
   flex-direction: row;
 }
@@ -129,9 +142,9 @@ img{
   font-weight:bold;
 }
 
-#contact-me {
+#contactme {
   font-weight: bolder;
-  font-size: 300px;
+  font-size: 80px;
 }
 
 #social-link {
@@ -182,10 +195,8 @@ input[type=submit]:hover {
   background-color: #d6cae5;
   padding: 30px;
   width: 400px;
-  float: left;
+  float: right;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, .67);
-
-  padding-left: 500px;
 }
 
 #form {
@@ -217,20 +228,29 @@ input[type=submit]:hover {
   padding-bottom: 300px; 
   padding-left: 100px; 
   font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
 }
 
-#skillsandprojects {
-  font-family: 'Times New Roman', Times, serif; 
-  padding-left: 300px; 
-  font-size: 100px; 
-  color: #b09cd1;
-}
 
+
+
+
+
+/*skills section*/
 #carousel-skill {
   height: 300px; 
   width: 200px;
 }
+/*hobbies and interests*/
 
+#hobbyinterest {
+height: 150px;
+width: 100px;
+}
+
+
+
+/*Testimonial section*/
 #testimonials {
   font-family: 'Times New Roman', Times, serif; 
   padding-left: 300px; 
@@ -316,4 +336,3 @@ footer p:nth-child(2){
   font-size: 14px;
 }*/
 
-/*hobbies and interests*/
