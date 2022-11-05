@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 /*whole website*/
 * {
   font-family: 'Courier New', Courier, monospace;
@@ -267,14 +269,16 @@ input[type=submit]:hover {
   background-color: #d6cae5;
   padding: 30px;
   width: 400px;
-  float: right;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, .67);
+  
 }
 
 #form {
   padding-left: 0px;
-  float: right;
+  margin: auto;
+  /* float: right; */
 }
+
 
 #labels {
   padding-left: 40px;
