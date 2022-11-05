@@ -48,6 +48,10 @@ body {
   padding: 0px;
   margin: 20px;
 }
+#aboutmesub {
+  font-size: 50px;
+  padding-top: 10px;
+}
 #aboutme, #workexp {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, .67);
 }
