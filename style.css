@@ -47,10 +47,22 @@ body {
 /*hobbies and interests*/
 
 #hobbyinterest {
-height: 150px;
-width: 100px;
+height: 400px;
+width: 300px;
+padding: 10px;
 }
 
+#HIcontent {
+  padding: 10px;
+  margin: 10px;
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+
+#hobbyimage {
+
+}
 /*Skills and Projects section*/
 #skillsandprojects {
   font-family: 'Times New Roman', Times, serif; 
@@ -62,6 +74,16 @@ width: 100px;
 
 
 /*Projects section*/
+
+#project-subtitle, #skills-subtitle {
+  font-size: 60px;
+  color: #531063;
+  font-weight: 200;
+}
+
+#project-subtitle {
+  padding-left: 200px;
+}
 .card-body {
     background:transparent; 
     position:relative;
@@ -214,6 +236,7 @@ img{
 #contact {
   font-family: 'Courier New', Courier, monospace;
   font-weight:bold;
+  padding-top: 30px;
 }
 
 #contactme {
