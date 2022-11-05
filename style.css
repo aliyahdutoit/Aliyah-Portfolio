@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 
 /*whole website*/
 * {
@@ -37,6 +37,10 @@ body {
   font-size: 30px;
 }
 
+.img-thumbnail {
+  width: 200px;
+  height: 200px;
+}
 #aboutme, #workexp {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, .67);
 }
@@ -61,7 +65,8 @@ padding: 10px;
 }
 
 #hobbyimage {
-
+width: 200px;
+height: 300px;
 }
 /*Skills and Projects section*/
 #skillsandprojects {
@@ -197,8 +202,17 @@ img{
 
 /*skills section*/
 #carousel-skill {
-  height: 300px; 
+  height: 300px;
   width: 200px;
+  color: black;
+  fon
+  padding-top: 10px;
+}
+
+#skillsrate {
+color: black;
+font-weight: bold;
+padding: 0;
 }
 
 /*Testimonial section*/
@@ -311,7 +325,7 @@ input[type=submit]:hover {
 footer{
   position: relative;
   width: 100%;
-  height: 100px;
+  height: 80px;
   background: #944BA5;
   display: flex;
   flex-direction: column;
