@@ -33,6 +33,11 @@ body {
 
 /*About Me Section*/
 
+#about {
+  padding-left: 300px; 
+  font-size: 100px; 
+  color: #b09cd1;
+}
 #aboutmeheadliner {
   font-size: 30px;
 }
@@ -40,6 +45,8 @@ body {
 .img-thumbnail {
   width: 200px;
   height: 200px;
+  padding: 0px;
+  margin: 20px;
 }
 #aboutme, #workexp {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, .67);
