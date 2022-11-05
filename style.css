@@ -65,6 +65,7 @@ body {
 
 #workexp {
   width: 120px;
+  padding: 10px;
 }
 /*hobbies and interests*/
 
@@ -314,6 +315,9 @@ padding: 0;
   height: 300px;
 }
 
+.card-text, .card-title {
+  padding: 8px;
+}
 /*Contact section*/
 
 /*Contact info*/
