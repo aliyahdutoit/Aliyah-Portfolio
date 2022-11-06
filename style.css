@@ -95,10 +95,10 @@ body {
   padding-left: 300px;
 }
 
-#hobbyrow {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 0px;
+
+
+.mb-4 {
+  margin-bottom: 19.5rem!important;
 }
 .col-lg-2 {
   height: fit-content;
