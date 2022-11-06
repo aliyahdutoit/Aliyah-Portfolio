@@ -98,7 +98,7 @@ body {
 #hobbyrow {
   display: flex;
   flex-direction: column;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
 }
 .col-lg-2 {
   height: fit-content;
@@ -144,9 +144,10 @@ body {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
-  color: white;
+  background-color: transparent;
+  color: black;
   transform: rotateY(180deg);
+  padding-top: 110px;
 }
 
 .col-lg-4 {
@@ -353,8 +354,9 @@ img{
 
 #contact {
   font-family: 'Courier New', Courier, monospace;
-  font-weight:bold;
+  font-weight: bold;
   padding-top: 30px;
+  padding-left: 60px;
 }
 
 #contactme {
@@ -362,6 +364,9 @@ img{
   font-size: 80px;
 }
 
+#icon {
+  padding-left: 30px;
+}
 #social-link {
   text-decoration: none;
   color: #531063;
@@ -435,17 +440,7 @@ footer{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 0%;
+  margin-top: 50px;
 }
-/*footer p:nth-child(1){
-  font-size: 30px;
-  color: white;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-footer p:nth-child(2){
-  color: white;
-  font-size: 17px;
-  width: 500px;
-  text-align: center;
-  line-height: 26px;
-}*/
+
