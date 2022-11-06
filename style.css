@@ -52,8 +52,14 @@ body {
   margin: 10px;
 }
 #aboutmesub {
-  font-size: 30px;
-  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  height: 200px;
+  font-weight: bolder;
+  float: right;
+  font-size: x-large;
+  margin-left: 0px;
 }
 
 #aboutcontent {
@@ -66,6 +72,13 @@ body {
 #workexp {
   width: 120px;
   padding: 10px;
+}
+
+#workexphead {
+  font-size: 30px;
+  color: #531063;
+  padding-left: 110px;
+  font-weight: bolder;
 }
 /*hobbies and interests*/
 
